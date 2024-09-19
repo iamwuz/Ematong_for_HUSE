@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HUSEPay</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            margin:0;
+            font-family: Arial, sans-serif;
+            box-sizing: border-box;
+        }
+        h1 {
+            margin-top: 20%;
+            color: #007bff;
+        }
+        #imageContainer {
+            width: 320px;
+            height: 327px;
+            margin-bottom: 20px;
+            border: 2px solid #ddd;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            border-radius: 20px;
+        }
+        #image {
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+            -webkit-tap-highlight-color: transparent; /* 移除点击遮罩 */
+            filter: url(#blur-effect); /* 使用 SVG 滤镜 */
+            transition: filter 0.5s ease;
+        }
+        #reloadButton {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        #reloadButton:disabled {
+            background-color: gray;
+            cursor: not-allowed;
+        }
+        #reloadButton:hover:not(:disabled) {
+            background-color: #0056b3;
+        }
+        #reloadButton:active:not(:disabled) {
+            background-color: #004494;
+        }
+        /* SVG Filter for blur effect */
+        svg {
+            position: absolute;
+            width: 0;
+            height: 0;
+        }
+        h1 {
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>科院e码通</h1>
+    <div id="imageContainer">
+        <img id="image" src="" onclick="refreshImage()">
+    </div>
+    <button id="reloadButton">Refresh</button>
+
+    <!-- SVG Filter Definition -->
+    <svg>
+        <filter id="blur-effect" x="0" y="0">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="0.5" /> <!-- 控制模糊强度 -->
+        </filter>
+    </svg>
+
+    <script>
+        let lastRefreshTime = Date.now();
+        let isRefreshing = false;
+
+        async function runCommandAndGetImage() {
+            document.getElementById('image').style.filter = 'url(#blur-effect)'; // 设置轻微高斯模糊
+            try {
+                const response = await fetch('/run_command_and_get_image', {
+                    method: 'POST'
+                });
+                if (response.ok) {
+                    const imageBlob = await response.blob();
+                    const imageUrl = URL.createObjectURL(imageBlob);
+                    document.getElementById('image').src = imageUrl;
+                    lastRefreshTime = Date.now(); // 更新最后一次刷新时间
+                    document.getElementById('reloadButton').disabled = false; // 启用按钮
+                    isRefreshing = false;
+                } else {
+                    console.error('Failed to load image');
+                    document.getElementById('reloadButton').disabled = false; // 启用按钮
+                    isRefreshing = false;
+                }
+            } catch (error) {
+                console.error('An error occurred:', error);
+                document.getElementById('reloadButton').disabled = false; // 启用按钮
+                isRefreshing = false;
+            }
+            document.getElementById('image').style.filter = 'none'; // 移除
+        }
+
+        function checkAndRefresh() {
+            const currentTime = Date.now();
+            const elapsedTime = currentTime - lastRefreshTime;
+
+            // 检查页面是否在前台并且距离上次刷新超过60秒
+            if (!document.hidden && elapsedTime >= 60000) {
+                lastRefreshTime = Date.now(); // 更新最后一次刷新时间
+                runCommandAndGetImage();
+            }
+        }
+
+        async function refreshImage() {
+            if (isRefreshing) return;
+            isRefreshing = true;
+            document.getElementById('reloadButton').disabled = true;
+            await runCommandAndGetImage();
+        }
+
+        window.addEventListener('DOMContentLoaded', async () => {
+            // 页面加载完成后自动加载图片
+            await runCommandAndGetImage();
+
+            // 每秒检查一次是否需要刷新图片
+            setInterval(checkAndRefresh, 1000);
+
+            // 为按钮添加点击事件
+            document.getElementById('reloadButton').addEventListener('click', async () => {
+                // 禁用按钮直到图片加载完成
+                document.getElementById('reloadButton').disabled = true;
+                // 点击按钮时发送指令并加载图片
+                await runCommandAndGetImage();
+            });
+        });
+    </script>
+</body>
+</html>

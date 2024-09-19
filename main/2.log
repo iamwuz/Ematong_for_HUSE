@@ -1,0 +1,294 @@
+nohup: ignoring input
+ * Serving Flask app 'ematong_app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8001
+ * Running on http://172.20.128.3:8001
+Press CTRL+C to quit
+127.0.0.1 - - [26/Aug/2024 21:15:58] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 21:16:05] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 21:16:06] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 21:16:10] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 21:16:13] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 21:20:02] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [26/Aug/2024 21:20:04] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 21:20:13] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 21:20:13] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 21:20:14] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 21:20:16] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 21:20:19] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 21:20:22] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 21:20:24] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 21:20:26] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 21:20:28] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 21:20:31] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 21:20:33] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 21:20:39] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 21:20:40] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 21:20:44] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 21:20:45] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 21:21:06] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 21:23:24] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 21:24:04] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 21:24:05] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 21:24:06] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 21:24:27] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 21:25:29] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 21:26:31] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 21:27:33] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 21:31:23] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 21:34:01] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 21:44:47] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 21:44:49] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 21:44:50] "GET /favicon.ico HTTP/1.1" 304 -
+127.0.0.1 - - [26/Aug/2024 21:44:52] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [26/Aug/2024 21:44:55] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 21:47:31] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 21:47:36] "GET /favicon.ico HTTP/1.1" 304 -
+127.0.0.1 - - [26/Aug/2024 21:47:39] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 21:55:31] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 21:59:01] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 21:59:01] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 21:59:02] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 21:59:05] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 21:59:07] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 21:59:09] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 22:13:14] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [26/Aug/2024 22:13:15] "GET /favicon.ico HTTP/1.1" 304 -
+127.0.0.1 - - [26/Aug/2024 22:13:16] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 22:13:19] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 22:13:21] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 22:13:23] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 22:13:25] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 22:13:27] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 22:13:28] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 22:13:30] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 22:13:34] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 22:19:05] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [26/Aug/2024 22:19:06] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 22:42:18] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [26/Aug/2024 22:42:18] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 22:42:18] "GET /favicon.ico HTTP/1.1" 304 -
+127.0.0.1 - - [26/Aug/2024 22:42:19] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 22:44:04] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2024 22:45:41] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [27/Aug/2024 05:43:30] code 400, message Bad request syntax ('\x01I20100')
+127.0.0.1 - - [27/Aug/2024 05:43:30] "\x01I20100" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [27/Aug/2024 10:15:32] code 400, message Bad request version ('À\x13À')
+127.0.0.1 - - [27/Aug/2024 10:15:32] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x82\x81\x8c\x02\x11È{ª\x85®·\x8f÷\x0fæ,\x81\x93¾MÊ,}¨Ë\x95}þ^¶Ûé ï}òM[dNeÌâ{\x87¢k\x1f¦N'\x8bÕÄÀªì(ìýÕ>\x10Ø\x87\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [27/Aug/2024 10:15:33] code 400, message Bad request version ('À(À$À\x14À')
+127.0.0.1 - - [27/Aug/2024 10:15:33] "\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03ÎÈB5d\x01í¹î\x19¡¢\x8c-ü¥\x98U\x82\x88\x114\x02fS\x0e\x0b¯\x95A\x83Æ\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [27/Aug/2024 10:26:58] code 400, message Bad request version ('À\x14À')
+127.0.0.1 - - [27/Aug/2024 10:26:58] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03Ú(¡!a²ó*%»dyGjºÕ\x83¨\x91\x8bµßà¿\x12\x14qPz\x144\x1d\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [27/Aug/2024 16:13:04] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [27/Aug/2024 16:13:11] "GET /favicon.ico HTTP/1.1" 304 -
+127.0.0.1 - - [27/Aug/2024 16:13:12] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [27/Aug/2024 16:13:16] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [27/Aug/2024 18:04:17] code 400, message Bad request version ('À\x14À')
+127.0.0.1 - - [27/Aug/2024 18:04:17] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03úU\x17Ò¼uÒÁ¯áFb\x1eI0\x83zÊc\x06rÌ>H24®\x88(u\x82v\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [27/Aug/2024 19:49:00] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [27/Aug/2024 19:49:17] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [27/Aug/2024 19:49:19] "GET http://api.ipify.org/?format=json HTTP/1.1" 200 -
+127.0.0.1 - - [27/Aug/2024 19:49:22] "CONNECT www.shadowserver.org:443 HTTP/1.1" 404 -
+127.0.0.1 - - [27/Aug/2024 20:30:35] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+127.0.0.1 - - [27/Aug/2024 20:30:35] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [28/Aug/2024 07:31:52] code 400, message Bad request version ('À\x13À')
+127.0.0.1 - - [28/Aug/2024 07:31:52] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03³i\x97±\x8cØNg\x8b\x0c-¤NyÊ;r2\x09\x98:ó®kç\x9cAc¸jÓ8 ©®Å\x9e\x93ì\x0f[\x90\x04Þ¬²Üu\x99â\x06H¹óëgÇ«ödü\x9d\x01\x19@\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [28/Aug/2024 07:31:53] code 400, message Bad HTTP/0.9 request type ("\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03´õðST\x80)½R(P\x83ÿ\x07%¢aîyä\x8dóaAÏ\x138\x86±ÈÓ^\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À")
+127.0.0.1 - - [28/Aug/2024 07:31:53] "\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03´õðST\x80)½R(P\x83ÿ\x07%¢aîyä\x8dóaAÏ\x138\x86±ÈÓ^\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [28/Aug/2024 12:06:26] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+127.0.0.1 - - [28/Aug/2024 12:06:26] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [28/Aug/2024 13:01:46] code 400, message Bad request version ('À\x13À')
+127.0.0.1 - - [28/Aug/2024 13:01:46] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03I\x06²ù¼\x99iÀYûøºe-\x83Ud]\x0e\x8d·b8´gÆÝ9dZ8f gÁ\x81i³öòË°©\x19NÖ½\x95g|püé<Z¡\x90T·é¥8'O;\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [28/Aug/2024 13:01:57] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2024 15:46:32] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03©ñ\x04ì.\x9dD\x88\x9añ8\xad¥\x0eàosæ\x8eî\x10W²÷òumÅ`p}t\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+127.0.0.1 - - [28/Aug/2024 15:46:32] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03©ñ\x04ì.\x9dD\x88\x9añ8­¥\x0eàosæ\x8eî\x10W²÷òumÅ`p}t\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [28/Aug/2024 18:39:04] code 400, message Bad request syntax ('\x01\x01æ')
+127.0.0.1 - - [28/Aug/2024 18:39:04] "\x01\x01æ" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [28/Aug/2024 19:09:43] code 400, message Bad request version ('À\x14À')
+127.0.0.1 - - [28/Aug/2024 19:09:43] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03¢½\x9d\x1bh¤$Âs½Bp# ò\x1c\x97\x81\x1au\x9bë:å¡@}=XìÛ¡\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [28/Aug/2024 20:02:37] code 400, message Bad request version ('À\x14À')
+127.0.0.1 - - [28/Aug/2024 20:02:37] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03ÞPì~ø\x1eÔ\x979ñ[\x1b\x0fSô'\x88\x8dâJd3ôk¶Ä\x13T\x0eË,\x91 Ó¸À{²32¼\x97N®\x8bDJ\x09ç\x0dÒë6\x8e®\x1cÓC5\x05¾ÄW\x19f\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [28/Aug/2024 20:02:40] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2024 20:02:46] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2024 20:02:47] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2024 20:02:52] code 505, message Invalid HTTP version (2.0)
+127.0.0.1 - - [28/Aug/2024 20:02:52] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+127.0.0.1 - - [28/Aug/2024 21:54:10] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2024 21:54:17] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2024 21:54:20] "GET http://api.ipify.org/?format=json HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2024 21:54:24] "CONNECT www.shadowserver.org:443 HTTP/1.1" 404 -
+127.0.0.1 - - [28/Aug/2024 22:01:23] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+127.0.0.1 - - [28/Aug/2024 22:01:23] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [28/Aug/2024 22:30:30] code 400, message Bad request version ('À\x14À')
+127.0.0.1 - - [28/Aug/2024 22:30:30] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03È¶Ú¸q-\x0c\x02ALÃ­_´Ã\x0d×¢º\x09\x95+*Z\x87q\x9fx\x8c\x0fs# "º\x9cºa,Ì©1¹\x05F10Á^\x0d¶\x03xsú-\x14ùÆ¼,Ûö,õ\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [28/Aug/2024 22:30:34] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2024 22:30:38] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2024 22:30:39] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2024 22:30:42] code 505, message Invalid HTTP version (2.0)
+127.0.0.1 - - [28/Aug/2024 22:30:42] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+127.0.0.1 - - [28/Aug/2024 23:02:04] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2024 23:02:08] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2024 23:02:08] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2024 23:02:13] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [28/Aug/2024 23:02:18] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [28/Aug/2024 23:02:19] "GET /favicon.ico HTTP/1.1" 304 -
+127.0.0.1 - - [28/Aug/2024 23:02:20] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [29/Aug/2024 01:14:15] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [29/Aug/2024 01:14:16] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [29/Aug/2024 01:14:17] "GET /favicon.ico HTTP/1.1" 304 -
+127.0.0.1 - - [29/Aug/2024 02:25:47] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Aug/2024 04:20:37] code 400, message Bad request syntax ('\x16\x03\x01\x00î\x01\x00\x00ê\x03\x039o§wßX7Ë\x8c©Ëló«ÚÚ')
+127.0.0.1 - - [29/Aug/2024 04:20:37] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x039o§wßX7Ë\x8c©Ëló«ÚÚ" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [29/Aug/2024 04:20:40] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Aug/2024 04:20:44] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Aug/2024 04:20:45] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [29/Aug/2024 04:20:48] code 505, message Invalid HTTP version (2.0)
+127.0.0.1 - - [29/Aug/2024 04:20:48] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+127.0.0.1 - - [29/Aug/2024 05:35:38] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Aug/2024 11:58:43] code 400, message Bad request version ('À\x13À')
+127.0.0.1 - - [29/Aug/2024 11:58:43] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x0e\x1e\x0fØ\x04Ôa\x13&Å´E\x0fäEH´ð\x83Eã» uI\x1a\x92j\x8f\x7f\x19\x11 \x9e\x95Awêß\x18ÀÃ,÷\x11Ö\x087Þ¸ÃüÔ\x9aÀè°\x87Y2?¿\x00¢;\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [29/Aug/2024 11:58:43] code 400, message Bad request version ('À(À$À\x14À')
+127.0.0.1 - - [29/Aug/2024 11:58:43] "\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03\x09\x1cZö?\x8aM\x82f\x81åz\x19\x99*i#$À\x00\x8c\x8dJ9ñ\x9eÕØå\x9b½.\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [29/Aug/2024 12:27:56] code 400, message Bad request version ('À\x14À')
+127.0.0.1 - - [29/Aug/2024 12:27:56] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x91L½\x02pÂñRÎ=\x97`dq\x1f\x1e\x9d\x1aôþ|ýú\x17¯\x0cÆîQõ\x00(\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [29/Aug/2024 12:28:34] code 400, message Bad request syntax ('\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+127.0.0.1 - - [29/Aug/2024 12:28:34] "\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [29/Aug/2024 12:29:50] code 400, message Bad request version ('À\x14À')
+127.0.0.1 - - [29/Aug/2024 12:29:50] "\x16\x03\x01\x00±\x01\x00\x00­\x03\x03\x9a¯»\x8c<O\x86óJ\x13s2å×Ûsþ\x18 ý\x89SV+Zò\x91q3Etw\x00\x00PÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [29/Aug/2024 12:31:14] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [29/Aug/2024 12:32:40] code 400, message Bad request version ('À\x14À')
+127.0.0.1 - - [29/Aug/2024 12:32:40] "\x16\x03\x01\x00±\x01\x00\x00­\x03\x03/\x1bÜÃôm\x97/\x095©\x1dÜô_$HÚ\x9b\x0eíÁo\x82ÛH\x8f\x1aùÄ¬Õ\x00\x00PÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [29/Aug/2024 12:34:15] "GET /manage/account/login HTTP/1.1" 404 -
+127.0.0.1 - - [29/Aug/2024 12:35:54] code 400, message Bad request syntax ('\x16\x03\x01\x00±\x01\x00\x00\xad\x03\x03')
+127.0.0.1 - - [29/Aug/2024 12:35:54] "\x16\x03\x01\x00±\x01\x00\x00­\x03\x03" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [29/Aug/2024 12:37:22] "GET /admin/index.html HTTP/1.1" 404 -
+127.0.0.1 - - [29/Aug/2024 12:38:59] code 400, message Bad request version ('À\x14À')
+127.0.0.1 - - [29/Aug/2024 12:38:59] "\x16\x03\x01\x00±\x01\x00\x00­\x03\x03nÙò¸\x0cÜñM\\ã\x13ç\x00tmEÑC\x06ë²\x00Àü§w\x01Æ¬¶(\x07\x00\x00PÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [29/Aug/2024 12:40:27] "GET /index.html HTTP/1.1" 404 -
+127.0.0.1 - - [29/Aug/2024 12:42:08] code 400, message Bad request version ('À\x14À')
+127.0.0.1 - - [29/Aug/2024 12:42:08] "\x16\x03\x01\x00±\x01\x00\x00­\x03\x03¤³¸ÃÖvQ\x09G\x88\x9cjZ¥áoyÏq\x93\x7fã·X)@\x89È\x81ÛüÀ\x00\x00PÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [29/Aug/2024 12:43:37] "GET /+CSCOE+/logon.html HTTP/1.1" 404 -
+127.0.0.1 - - [29/Aug/2024 12:45:14] code 400, message Bad request version ('À\x14À')
+127.0.0.1 - - [29/Aug/2024 12:45:14] "\x16\x03\x01\x00±\x01\x00\x00­\x03\x03\x08®Ó\x10=VZopæ*Ô·µv\x89Éý}\x05¼Va\x08\x93Ä/¬Z"ë\x0b\x00\x00PÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [29/Aug/2024 12:46:42] "GET /cgi-bin/login.cgi HTTP/1.1" 404 -
+127.0.0.1 - - [29/Aug/2024 12:48:22] code 400, message Bad request version ('À\x14À')
+127.0.0.1 - - [29/Aug/2024 12:48:22] "\x16\x03\x01\x00±\x01\x00\x00­\x03\x03¹rS\x9e\x08bb\x0cU\x8f]AÒ»S¹\x87\x82Y[*øÁ Ý>(£\x01Ñàb\x00\x00PÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [29/Aug/2024 12:49:50] "GET /logon.htm HTTP/1.1" 404 -
+127.0.0.1 - - [29/Aug/2024 12:51:36] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00±\x01\x00\x00\xad\x03\x03tÛ\x02\x11BU!vS?ø\x97Û@U#÷¬A\x84\x06|\x08\x92\x15Ý\x8a\x81\x9f\x98Ôm\x00\x00PÀ/À+À\x11À\x07À\x13À')
+127.0.0.1 - - [29/Aug/2024 12:51:36] "\x16\x03\x01\x00±\x01\x00\x00­\x03\x03tÛ\x02\x11BU!vS?ø\x97Û@U#÷¬A\x84\x06|\x08\x92\x15Ý\x8a\x81\x9f\x98Ôm\x00\x00PÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [29/Aug/2024 12:52:57] "GET /login.jsp HTTP/1.1" 404 -
+127.0.0.1 - - [29/Aug/2024 12:54:35] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00±\x01\x00\x00\xad\x03\x03\x87Ç\x82Û\x8bO¼\x08úýd°#Ûí&ã;¤Ð\x92\x8e\x07\x8c³>i?~Ç¤f\x00\x00PÀ/À+À\x11À\x07À\x13À')
+127.0.0.1 - - [29/Aug/2024 12:54:35] "\x16\x03\x01\x00±\x01\x00\x00­\x03\x03\x87Ç\x82Û\x8bO¼\x08úýd°#Ûí&ã;¤Ð\x92\x8e\x07\x8c³>i?~Ç¤f\x00\x00PÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [29/Aug/2024 12:56:05] "GET /doc/index.html HTTP/1.1" 404 -
+127.0.0.1 - - [29/Aug/2024 12:57:41] code 400, message Bad request version ('À\x14À')
+127.0.0.1 - - [29/Aug/2024 12:57:41] "\x16\x03\x01\x00±\x01\x00\x00­\x03\x031ÑQa4±åp _\x04\x96mL\x88­Ö\x80À²Ò\x99Ì\x87jÇ÷>(¡N\x9e\x00\x00PÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [29/Aug/2024 12:59:10] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Aug/2024 14:14:12] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [29/Aug/2024 14:14:13] "GET /favicon.ico HTTP/1.1" 304 -
+127.0.0.1 - - [29/Aug/2024 14:14:14] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [29/Aug/2024 14:30:36] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Aug/2024 14:30:38] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [29/Aug/2024 14:30:48] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [29/Aug/2024 14:30:49] "GET /favicon.ico HTTP/1.1" 304 -
+127.0.0.1 - - [29/Aug/2024 14:30:50] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [29/Aug/2024 14:30:54] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [29/Aug/2024 15:18:52] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [29/Aug/2024 15:18:53] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [29/Aug/2024 15:18:53] "GET /favicon.ico HTTP/1.1" 304 -
+127.0.0.1 - - [29/Aug/2024 15:24:42] code 400, message Bad HTTP/0.9 request type ('JDWP-Handshake\x00\x00\x00')
+127.0.0.1 - - [29/Aug/2024 15:24:42] "JDWP-Handshake\x00\x00\x00\x0b\x00\x00\x00\x01\x00\x01\x01" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [29/Aug/2024 15:24:44] code 400, message Bad request version ("où\x92sý\x9c]ä\x93¦j\\\x9d©{Ï\x86Vruæ¼Ì\x00\x9c\x13\x02\x13\x03\x13\x01\x003\x009\x005\x00/À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À\xadÀ£À\x9fÀ]ÀaÀWÀSÀ+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀRÀ$À(\x00k\x00jÀsÀw\x00Ä\x00ÃÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½À")
+127.0.0.1 - - [29/Aug/2024 15:24:44] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03[ß\x14\x86\x09Fé\x13\x05NÅ#¶"kAß\x84\x1a\x00ç\x1dJ\x97\x8e\x95/ê\x809>\x1f j\x91Ë\x1c\x98\x1d\x14+\x1coù\x92sý\x9c]ä\x93¦j\\\x9d©{Ï\x86Vruæ¼Ì\x00\x9c\x13\x02\x13\x03\x13\x01\x003\x009\x005\x00/À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À­À£À\x9fÀ]ÀaÀWÀSÀ+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀRÀ$À(\x00k\x00jÀsÀw\x00Ä\x00ÃÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½À" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [29/Aug/2024 16:04:45] code 400, message Bad request version ('À\x14À')
+127.0.0.1 - - [29/Aug/2024 16:04:45] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x7f³Ë\x9eÇG>\x9bÜçh`lðÛv\x8b}\x9d~eíß\x01$Û\x83¶u5W1 ÕkSvM6À_\x82»_v\x8bý\x03¶îj;Ø\x85\x1c¬<º.z×\x1e)Ye\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [29/Aug/2024 16:04:49] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Aug/2024 16:04:55] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Aug/2024 16:04:56] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [29/Aug/2024 16:04:59] code 505, message Invalid HTTP version (2.0)
+127.0.0.1 - - [29/Aug/2024 16:04:59] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+127.0.0.1 - - [29/Aug/2024 16:34:14] code 400, message Bad request syntax ('\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x86e\x94\x8aÅØw\x01\x7f÷ñ')
+127.0.0.1 - - [29/Aug/2024 16:34:14] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x86e\x94\x8aÅØw\x01\x7f÷ñ" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [29/Aug/2024 16:34:18] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Aug/2024 16:34:23] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Aug/2024 16:34:24] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [29/Aug/2024 16:34:27] code 505, message Invalid HTTP version (2.0)
+127.0.0.1 - - [29/Aug/2024 16:34:27] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+127.0.0.1 - - [29/Aug/2024 17:09:10] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+127.0.0.1 - - [29/Aug/2024 17:09:10] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [29/Aug/2024 17:36:57] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03tì\x00\x81\x80=^\x06\x04n\x15Í_e5\xad\x8aA{]1³\x1ak%S8\x06üÃb\x07\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+127.0.0.1 - - [29/Aug/2024 17:36:57] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03tì\x00\x81\x80=^\x06\x04n\x15Í_e5­\x8aA{]1³\x1ak%S8\x06üÃb\x07\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [29/Aug/2024 18:15:14] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Aug/2024 18:39:11] code 400, message Bad HTTP/0.9 request type ('Z¥\x01')
+127.0.0.1 - - [29/Aug/2024 18:39:11] "Z¥\x01 \x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [29/Aug/2024 19:16:25] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Aug/2024 19:16:26] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00ò\x01\x00\x00î\x03\x03,\x16£¾¿æ')
+127.0.0.1 - - [29/Aug/2024 19:16:26] "\x16\x03\x01\x00ò\x01\x00\x00î\x03\x03,\x16£¾¿æ\x1e'â\x8d@\x03" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [29/Aug/2024 19:16:27] code 400, message Bad HTTP/0.9 request type ('t3')
+127.0.0.1 - - [29/Aug/2024 19:16:27] "t3 12.1.2" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [29/Aug/2024 21:29:29] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03»F"=x\x9ei|Æ\x16\x11©\x9cf\x8a"v\x0e@\xadÇ\x97+ä²ò!ZäiÄ\x01\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+127.0.0.1 - - [29/Aug/2024 21:29:29] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03»F"=x\x9ei|Æ\x16\x11©\x9cf\x8a"v\x0e@­Ç\x97+ä²ò!ZäiÄ\x01\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [29/Aug/2024 22:23:20] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Aug/2024 22:40:31] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [30/Aug/2024 01:13:23] code 400, message Bad request version ('À\x13À')
+127.0.0.1 - - [30/Aug/2024 01:13:23] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03C\x12=ù\x1eI;p÷±Ø\x12T\x96P"ä»M\x9c|\x8d<öMº}\x9fî¥\x0bw ÚN¹\x09\x1c\x18È70±X\x03}?\\\x19>t{¢n.\x84\x07\x90Böµ+4qô\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [30/Aug/2024 01:13:24] code 400, message Bad request version ('À(À$À\x14À')
+127.0.0.1 - - [30/Aug/2024 01:13:24] "\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03ÉÁ1ÏÏÞ\x87,:Ý?É\x06>ªáy»8Ò}\x9eÙE\x0d\x9c\x18? 3xs\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [30/Aug/2024 02:26:55] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [30/Aug/2024 04:25:37] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [30/Aug/2024 04:25:38] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [30/Aug/2024 04:25:40] "GET /robots.txt HTTP/1.1" 404 -
+127.0.0.1 - - [30/Aug/2024 04:25:40] "GET /sitemap.xml HTTP/1.1" 404 -
+127.0.0.1 - - [30/Aug/2024 05:08:46] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+127.0.0.1 - - [30/Aug/2024 05:08:46] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [30/Aug/2024 10:18:02] code 400, message Bad request version ('\x05\x9dØl\x17\x03<*¼9Oò)|)\x1bX×')
+127.0.0.1 - - [30/Aug/2024 10:18:02] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x04\x0bÜH·Ç\x0b¸#9²tZ\x910÷Ï¡Çr`>ó\x94\x99×¿>¢ï\x7fî ¹K¾-\x12<\x7f\x1c¶XKå\x1c\x05\x9dØl\x17\x03<*¼9Oò)|)\x1bX×" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [30/Aug/2024 10:33:33] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [30/Aug/2024 10:34:00] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [30/Aug/2024 11:49:03] code 400, message Bad request version ('À\x14À')
+127.0.0.1 - - [30/Aug/2024 11:49:03] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03{þ±\x9a\x7f\x98Ï\x94Ù\x83È~\x8e(¡R\x80ÀÊ\x00§±²\x0bv\x9fì\x86ùß@È ¶xZýb\x13¬<wý\x1d½{wÛ\x1e¹\x9b»i\x97´¨j\x03dÅlÄh}á\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [30/Aug/2024 11:49:06] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [30/Aug/2024 11:49:11] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [30/Aug/2024 11:49:11] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [30/Aug/2024 11:49:14] code 505, message Invalid HTTP version (2.0)
+127.0.0.1 - - [30/Aug/2024 11:49:14] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+127.0.0.1 - - [30/Aug/2024 12:33:01] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03Ð7\x01ÓV\x99\x98»\x997u\x96vÙÙ±j\x04¯\x8ctUñ\x88õJ´À_]Vn\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+127.0.0.1 - - [30/Aug/2024 12:33:01] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03Ð7\x01ÓV\x99\x98»\x997u\x96vÙÙ±j\x04¯\x8ctUñ\x88õJ´À_]Vn\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [30/Aug/2024 14:54:02] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [30/Aug/2024 14:54:03] "GET /console HTTP/1.1" 404 -
+127.0.0.1 - - [30/Aug/2024 15:57:12] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [30/Aug/2024 15:57:20] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [30/Aug/2024 15:57:23] "GET http://api.ipify.org/?format=json HTTP/1.1" 200 -
+127.0.0.1 - - [30/Aug/2024 15:57:26] "CONNECT www.shadowserver.org:443 HTTP/1.1" 404 -
+127.0.0.1 - - [30/Aug/2024 16:13:55] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [30/Aug/2024 16:13:57] "GET /favicon.ico HTTP/1.1" 304 -
+127.0.0.1 - - [30/Aug/2024 16:13:58] "POST /run_command_and_get_image HTTP/1.1" 200 -
+127.0.0.1 - - [30/Aug/2024 18:06:47] code 400, message Bad request version ('F\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbXcsXctst\x00\x00\x00\x00\x00\x00')
+127.0.0.1 - - [30/Aug/2024 18:06:47] "\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x80\x0b¨À\x00\x0c)t F\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbXcsXctst\x00\x00\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [30/Aug/2024 19:23:47] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [30/Aug/2024 19:23:49] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [30/Aug/2024 19:23:54] "GET /robots.txt HTTP/1.1" 404 -
+127.0.0.1 - - [30/Aug/2024 19:23:55] "GET /.well-known/security.txt HTTP/1.1" 404 -
+127.0.0.1 - - [30/Aug/2024 21:30:20] code 400, message Bad request version ('À\x14À')
+127.0.0.1 - - [30/Aug/2024 21:30:20] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03Z\x8dèr\x0bL\x8d\x0eÙù^\x0e\x9a\x82H¡Ø:nó=zÃÂðz»½ÄnÎ\x9b o¢yU®,L_ñ\x8ajj÷\x82,\x04\x85KI\x0e0ýEt\\>µ.sÍÞ=\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [30/Aug/2024 21:30:23] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [30/Aug/2024 21:30:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [30/Aug/2024 21:30:28] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [30/Aug/2024 21:30:30] code 505, message Invalid HTTP version (2.0)
+127.0.0.1 - - [30/Aug/2024 21:30:30] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+127.0.0.1 - - [30/Aug/2024 21:51:28] code 400, message Bad HTTP/0.9 request type ('\x12\x01\x00^\x00\x00\x01\x00\x00\x00$\x00\x06\x01\x00*\x00\x01\x02\x00+\x00\x01\x03\x00,\x00\x04\x04\x000\x00\x01\x05\x001\x00$\x06\x00U\x00\x01ÿ\x04\x07')
+127.0.0.1 - - [30/Aug/2024 21:51:28] "\x12\x01\x00^\x00\x00\x01\x00\x00\x00$\x00\x06\x01\x00*\x00\x01\x02\x00+\x00\x01\x03\x00,\x00\x04\x04\x000\x00\x01\x05\x001\x00$\x06\x00U\x00\x01ÿ\x04\x07\x0c¼\x00\x00\x00\x00\x00\x00\x15Ð\x00Àû[#V\x00\x00\x008y!0ö\x7f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00þÿÿÿ\x01" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [30/Aug/2024 22:26:20] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03oÃÂî\x9e²±UÜdyÝÊYèt³\x808!\x9aÐM9$\x97;Ïø»\x94ï\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+127.0.0.1 - - [30/Aug/2024 22:26:20] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03oÃÂî\x9e²±UÜdyÝÊYèt³\x808!\x9aÐM9$\x97;Ïø»\x94ï\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [31/Aug/2024 01:27:20] code 400, message Bad HTTP/0.9 request type ('\x12\x01\x00^\x00\x00\x01\x00\x00\x00$\x00\x06\x01\x00*\x00\x01\x02\x00+\x00\x01\x03\x00,\x00\x04\x04\x000\x00\x01\x05\x001\x00$\x06\x00U\x00\x01ÿ\x04\x07')
+127.0.0.1 - - [31/Aug/2024 01:27:20] "\x12\x01\x00^\x00\x00\x01\x00\x00\x00$\x00\x06\x01\x00*\x00\x01\x02\x00+\x00\x01\x03\x00,\x00\x04\x04\x000\x00\x01\x05\x001\x00$\x06\x00U\x00\x01ÿ\x04\x07\x0c¼\x00\x00\x00\x00\x00\x00\x15Ð\x00Àû[#V\x00\x00\x008y!0ö\x7f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00þÿÿÿ\x01" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [31/Aug/2024 02:27:58] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [31/Aug/2024 02:27:59] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [31/Aug/2024 02:28:00] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [31/Aug/2024 03:19:03] code 400, message Bad request version ('À\x13À')
+127.0.0.1 - - [31/Aug/2024 03:19:03] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03Í\x81(ÜôÔ c\x0c(\x96v'Ú(\x86%\x0di\x9eÆ./äFõÇ\x84W|\x1e( \x91Æ7\x9cyÄ,æ\x01ÛSð,µ£ÇÆCÃÇY\x0ca\x1bz±©Mköäþ\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [31/Aug/2024 03:19:04] code 400, message Bad request version ('À(À$À\x14À')
+127.0.0.1 - - [31/Aug/2024 03:19:04] "\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03/\x98¾ÿèz<\x0c\x1fÇI\x98Ï×BI\x8fÂub\\ÎÍ\x00\x8a,\x7f\x183¬V\x89\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [31/Aug/2024 09:50:05] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+127.0.0.1 - - [31/Aug/2024 09:50:05] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
