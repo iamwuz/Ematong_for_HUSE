@@ -8,7 +8,7 @@ def pushtemp(huse):
         symbol = '-'
     if huse.rechargeFlag:
         symbol = '+'
-    payurl = 'http://www.wuzspace.cn:8001/'
+    payurl = 'http://www.sample.cn/' #卡片中跳转url
     url = 'https://qyapi.weixin.qq.com/cgi-bin/message/send?access_token='
     data = {
         "touser": "@all",
