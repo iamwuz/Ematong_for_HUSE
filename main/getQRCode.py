@@ -11,7 +11,7 @@ def huse_getQRcode():
         info = json.load(f)
         access_token=info['access_token']
     headers = {'Authorization': access_token,
-               'mobile': '13789229207'}
+               'mobile': '#####'} #智校乐绑定的手机号
     resp = requests.get(
         'https://apppro.zhixiaole.net/v2/vcard/doorQrcode?school_id=14025&provider_code=1003&vcard_no=202206030117',
         headers=headers)
