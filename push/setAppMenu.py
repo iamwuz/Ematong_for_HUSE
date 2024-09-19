@@ -10,12 +10,12 @@ def setMenu(huse):
             {
                 "type": "view",
                 "name": "E码通",
-                "url": "http://hn1-lcf.luochancy.com:61600/"
+                "url": "http://www.sample.cn/" #卡片中跳转url
             },
             {
                 "type": "view",
                 "name": "宿舍电费",
-                "url": "http://hn1-lcf.luochancy.com:61600/"
+                "url": "http://www.sample.cn/" #卡片中跳转url
             },
             {
                 "name": "数据统计",
