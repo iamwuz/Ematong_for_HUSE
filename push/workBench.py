@@ -17,7 +17,7 @@ def worktemp(huse):
     url = 'https://qyapi.weixin.qq.com/cgi-bin/agent/set_workbench_data?access_token='
     data = {
         "agentid": agentid,
-        "userid": "WuZhiQiang",
+        "userid": "", #userid
         "type": "keydata",
         "keydata": {
             "items": [
