@@ -26,9 +26,9 @@ class Husepaypush:
         self.url = 'http://172.19.1.217:30110'
         #self.url = 'http://huseyktopen.huse.edu.cn:30110'
         # 个人信息
-        self.user_name = '13789229207'
-        self.user_pwd = 'w3468869'
-        self.dormitory = '101-4--21-318'
+        self.user_name = '' #智校乐账号
+        self.user_pwd = '' #智校乐密码
+        self.dormitory = '' #智校乐宿舍号
         # 统计数据
         self.today_cost = 0.
         self.today_costNum = 0
