@@ -4,7 +4,7 @@ import json
 agentid = 1000002  # 应用id
 
 def pushtemp(huse):
-    payurl = 'http://www.wuzspace.cn:8001/'
+    payurl = 'http://www.sample.cn:/'
     weekchs=('周一','周二','周三','周四','周五','周六','周日',)
     if huse.costFlag:
         symbol = '-'
