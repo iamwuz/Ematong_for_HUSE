@@ -4,7 +4,7 @@ import json
 agentid = 1000002  # 应用id
 
 def pushtemp(huse):
-    payurl = 'http://www.wuzspace.cn:8001/'
+    payurl = 'http://www.sample.cn/' #卡片中跳转url
     url = 'https://qyapi.weixin.qq.com/cgi-bin/message/send?access_token='
     data = {
         "touser": "@all",
