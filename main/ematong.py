@@ -153,6 +153,7 @@ class Husepaypush:
                                 self.orderType = '充值'
                                 self.summary = '工行卡（8860）'
                                 self.orderName = data['resultData'][item]['merchantName']
+                                self.today_recharge += abs(float(data['resultData'][item]['amt']))
                                 if self.monthFlag:
                                     self.month_recharge += abs(float(data['resultData'][item]['amt']))
                             self.today_rechargeNum = new_costNum
