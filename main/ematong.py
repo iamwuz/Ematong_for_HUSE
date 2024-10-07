@@ -270,7 +270,7 @@ class Husepaypush:
         self.yesterday = self.now - timedelta(days=1)
         ldom = calendar.monthrange(self.listentime.year, self.listentime.month)[1] #last_day_of_month
 
-        if self.now.day > self.listentime.day%ldom:  # 每日数据
+        if self.now.day%ldom > self.listentime.day%ldom:  # 每日数据
             self.sendMessage('today') #发送昨日数据
             self.listentime = self.now
             self.today_cost = 0
